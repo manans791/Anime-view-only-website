@@ -1,0 +1,119 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color: #540909;}
+    
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li{
+    float: right;
+  }
+  li a{
+    right: 0;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+ }
+ li a:hover{
+   background-color: rgb(27, 100, 163);
+   transition:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+   transform: 0.5s;
+   
+ }
+ .active {
+  background-color: #4CAF50;
+}
+  .bgimg1, .bgimg2, .bgimg3{
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  .bgimg1{
+    background-image:url(wallpaper1.jpg);
+    min-height:  100%;
+  }
+  
+  .bgimg2{
+    background-image:url(wallpaper3.png);
+    min-height:400px;
+  }
+  
+  .bgimg3{
+    background-image:url(wallpaper2.jpg);
+    min-height:400px;
+  }
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+    font-size: 20px;
+  }
+  .section-dark{
+    background-color:#000000;
+    color:#6d5151;
+    font-size: 20px;
+  }
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:30px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding: 20px;
+  }
+  .border a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .ptext .border.trans{
+    background-color: transparent;
+  }
+
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  content-image1{
+    float: right;
+    width: 100px;
+    height: 100px;
+  }
+  .border.trans img{
+    width: 200px;
+    height: 200px;
+    vertical-align: auto;
+    
+  }

@@ -1,0 +1,25 @@
+#heading{
+          font-size: 50px;
+          text-align: center;
+}
+#catalogue{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+#list{
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type:circle
+}
+#h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#list-1{
+    font-size: 30px;
+    margin-left: 30px;
+    
+    
+}
